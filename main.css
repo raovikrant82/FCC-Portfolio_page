@@ -1,0 +1,128 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 100vw;
+}
+
+.wrapper a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.title-section a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar {
+  background-color: black;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#welcome-section h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+#welcome-section p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#welcome-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 94, 94);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-section img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-tile {
+  width: 30vw;
+  margin: 15px;
+  background-color: black;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+#projects {
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: white;
+}
+
+#contact {
+  background-color: black;
+  height: 600px;
+  width: 100vw;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: rgb(207, 207, 207);
+  }
+}
