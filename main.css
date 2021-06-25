@@ -14,6 +14,12 @@ body {
   color: white;
 }
 
+.title-section a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
 .wrapper a:hover {
   color: gray;
   text-decoration: underline;
@@ -61,12 +67,6 @@ body {
 .img-section img {
   width: 100%;
   object-fit: cover;
-}
-
-.title-section a {
-  display: block;
-  text-decoration: none;
-  color: white;
 }
 
 .title-section {
